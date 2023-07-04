@@ -1,1 +1,1 @@
-# SoftRayTracing
+# 基于C++的光线追踪渲染器
