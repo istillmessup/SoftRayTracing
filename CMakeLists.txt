@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(SoftRayTracing)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(SoftRayTracing main.cpp stb_image.h vec3.cpp vec3.h ray.cpp ray.h hittable/hittable.cpp hittable/hittable.h hittable/sphere.cpp hittable/sphere.h hittable/hittable_list.cpp hittable/hittable_list.h common.cpp common.h camera.cpp camera.h materials/material.cpp materials/material.h materials/lambertian.cpp materials/lambertian.h materials/metal.cpp materials/metal.h materials/dielectric.cpp materials/dielectric.h hittable/aabb.cpp hittable/aabb.h hittable/bvh_node.cpp hittable/bvh_node.h textures/texture.cpp textures/texture.h textures/constant_texture.cpp textures/constant_texture.h textures/checker_texture.cpp textures/checker_texture.h textures/perlin.cpp textures/perlin.h textures/noise_texture.cpp textures/noise_texture.h textures/image_texture.cpp textures/image_texture.h materials/diffuse_light.cpp materials/diffuse_light.h hittable/rectangle.cpp hittable/rectangle.h hittable/box.cpp hittable/box.h hittable/translate.cpp hittable/translate.h hittable/rotate_y.cpp hittable/rotate_y.h onb.cpp onb.h pdf/pdf.cpp pdf/pdf.h pdf/cosine_pdf.cpp pdf/cosine_pdf.h pdf/hittable_pdf.cpp pdf/hittable_pdf.h pdf/mixture_pdf.cpp pdf/mixture_pdf.h)
